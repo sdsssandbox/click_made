@@ -1,0 +1,1516 @@
+HTTP/1.1 200 OK
+Server: GitHub.com
+Date: Tue, 10 Apr 2018 20:18:11 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 92239
+Status: 200 OK
+X-RateLimit-Limit: 60
+X-RateLimit-Remaining: 52
+X-RateLimit-Reset: 1523393771
+Cache-Control: public, max-age=60, s-maxage=60
+Vary: Accept
+ETag: "58919a6f18622e76b7d031833e4b1b41"
+X-GitHub-Media-Type: github.v3; format=json
+Link: <https://api.github.com/repositories/1523106/issues?state=closed&page=2>; rel="next", <https://api.github.com/repositories/1523106/issues?state=closed&page=20>; rel="last"
+Access-Control-Expose-Headers: ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Access-Control-Allow-Origin: *
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+X-Frame-Options: deny
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Content-Security-Policy: default-src 'none'
+X-Runtime-rack: 0.598218
+X-GitHub-Request-Id: E3CB:0BAF:758FE4:10730E0:5ACD1C02
+
+[
+  {
+    "url": "https://api.github.com/repos/vmg/redcarpet/issues/654",
+    "repository_url": "https://api.github.com/repos/vmg/redcarpet",
+    "labels_url": "https://api.github.com/repos/vmg/redcarpet/issues/654/labels{/name}",
+    "comments_url": "https://api.github.com/repos/vmg/redcarpet/issues/654/comments",
+    "events_url": "https://api.github.com/repos/vmg/redcarpet/issues/654/events",
+    "html_url": "https://github.com/vmg/redcarpet/issues/654",
+    "id": 308792511,
+    "number": 654,
+    "title": "# In table header",
+    "user": {
+      "login": "pauloue",
+      "id": 21223385,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/21223385?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/pauloue",
+      "html_url": "https://github.com/pauloue",
+      "followers_url": "https://api.github.com/users/pauloue/followers",
+      "following_url": "https://api.github.com/users/pauloue/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pauloue/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pauloue/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pauloue/subscriptions",
+      "organizations_url": "https://api.github.com/users/pauloue/orgs",
+      "repos_url": "https://api.github.com/users/pauloue/repos",
+      "events_url": "https://api.github.com/users/pauloue/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pauloue/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+
+    ],
+    "state": "closed",
+    "locked": false,
+    "assignee": null,
+    "assignees": [
+
+    ],
+    "milestone": null,
+    "comments": 1,
+    "created_at": "2018-03-27T01:45:31Z",
+    "updated_at": "2018-03-27T01:46:57Z",
+    "closed_at": "2018-03-27T01:46:44Z",
+    "author_association": "NONE",
+    "body": "```\r\n# | Description\r\n---------------\r\n1 | One\r\n2 | Two\r\n```\r\n\r\nThe table header becomes a heading."
+  },
+  {
+    "url": "https://api.github.com/repos/vmg/redcarpet/issues/653",
+    "repository_url": "https://api.github.com/repos/vmg/redcarpet",
+    "labels_url": "https://api.github.com/repos/vmg/redcarpet/issues/653/labels{/name}",
+    "comments_url": "https://api.github.com/repos/vmg/redcarpet/issues/653/comments",
+    "events_url": "https://api.github.com/repos/vmg/redcarpet/issues/653/events",
+    "html_url": "https://github.com/vmg/redcarpet/issues/653",
+    "id": 308292932,
+    "number": 653,
+    "title": "No script, no headers requested feature",
+    "user": {
+      "login": "mnlse",
+      "id": 19535692,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/19535692?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mnlse",
+      "html_url": "https://github.com/mnlse",
+      "followers_url": "https://api.github.com/users/mnlse/followers",
+      "following_url": "https://api.github.com/users/mnlse/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mnlse/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mnlse/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mnlse/subscriptions",
+      "organizations_url": "https://api.github.com/users/mnlse/orgs",
+      "repos_url": "https://api.github.com/users/mnlse/repos",
+      "events_url": "https://api.github.com/users/mnlse/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mnlse/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+
+    ],
+    "state": "closed",
+    "locked": false,
+    "assignee": null,
+    "assignees": [
+
+    ],
+    "milestone": null,
+    "comments": 1,
+    "created_at": "2018-03-24T19:42:56Z",
+    "updated_at": "2018-03-25T10:31:40Z",
+    "closed_at": "2018-03-25T10:31:40Z",
+    "author_association": "NONE",
+    "body": "## Requested features\r\n- A no <script> tag option\r\n- no headers option\r\n\r\nPlease add it."
+  },
+  {
+    "url": "https://api.github.com/repos/vmg/redcarpet/issues/651",
+    "repository_url": "https://api.github.com/repos/vmg/redcarpet",
+    "labels_url": "https://api.github.com/repos/vmg/redcarpet/issues/651/labels{/name}",
+    "comments_url": "https://api.github.com/repos/vmg/redcarpet/issues/651/comments",
+    "events_url": "https://api.github.com/repos/vmg/redcarpet/issues/651/events",
+    "html_url": "https://github.com/vmg/redcarpet/pull/651",
+    "id": 301001193,
+    "number": 651,
+    "title": "[wip] Fix travis builds",
+    "user": {
+      "login": "kolen",
+      "id": 24191,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/24191?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kolen",
+      "html_url": "https://github.com/kolen",
+      "followers_url": "https://api.github.com/users/kolen/followers",
+      "following_url": "https://api.github.com/users/kolen/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kolen/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kolen/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kolen/subscriptions",
+      "organizations_url": "https://api.github.com/users/kolen/orgs",
+      "repos_url": "https://api.github.com/users/kolen/repos",
+      "events_url": "https://api.github.com/users/kolen/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kolen/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+
+    ],
+    "state": "closed",
+    "locked": false,
+    "assignee": null,
+    "assignees": [
+
+    ],
+    "milestone": null,
+    "comments": 5,
+    "created_at": "2018-02-28T12:12:02Z",
+    "updated_at": "2018-03-07T15:51:06Z",
+    "closed_at": "2018-03-07T14:06:13Z",
+    "author_association": "CONTRIBUTOR",
+    "pull_request": {
+      "url": "https://api.github.com/repos/vmg/redcarpet/pulls/651",
+      "html_url": "https://github.com/vmg/redcarpet/pull/651",
+      "diff_url": "https://github.com/vmg/redcarpet/pull/651.diff",
+      "patch_url": "https://github.com/vmg/redcarpet/pull/651.patch"
+    },
+    "body": "Fix failing Travis builds\r\n\r\n- [x] Integrate #645 which adds Ruby 2.5 and omits minor version numbers\r\n- [x] `rubinius`: Update Rubinius to 3.99 (https://github.com/bundler/bundler/issues/6163): `Missing or uninitialized constant: Bundler::Deprecate`\r\n- [x] `rubinius`: `File does not exist: minitest/unit` ([builtin test/unit which is compatibility layer over minitest is removed in 3.100](https://github.com/rubinius/rubinius/releases/tag/v3.100))\r\n- [x] `ruby 1.9.3`: Limit version of Rake (development dependency) to < 12.3 (12.3 no longer supports Ruby 1.9 which we target)\r\n- [x] `ruby HEAD`: `cannot load such file -- bundler/dep_proxy` https://github.com/travis-ci/travis-ci/issues/8969 — allowed build to fail, error is still there\r\n"
+  },
+  {
+    "url": "https://api.github.com/repos/vmg/redcarpet/issues/650",
+    "repository_url": "https://api.github.com/repos/vmg/redcarpet",
+    "labels_url": "https://api.github.com/repos/vmg/redcarpet/issues/650/labels{/name}",
+    "comments_url": "https://api.github.com/repos/vmg/redcarpet/issues/650/comments",
+    "events_url": "https://api.github.com/repos/vmg/redcarpet/issues/650/events",
+    "html_url": "https://github.com/vmg/redcarpet/pull/650",
+    "id": 300858594,
+    "number": 650,
+    "title": "Fix \"instance variable @options not initialized\" warning in verbose mode",
+    "user": {
+      "login": "kolen",
+      "id": 24191,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/24191?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kolen",
+      "html_url": "https://github.com/kolen",
+      "followers_url": "https://api.github.com/users/kolen/followers",
+      "following_url": "https://api.github.com/users/kolen/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kolen/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kolen/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kolen/subscriptions",
+      "organizations_url": "https://api.github.com/users/kolen/orgs",
+      "repos_url": "https://api.github.com/users/kolen/repos",
+      "events_url": "https://api.github.com/users/kolen/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kolen/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+
+    ],
+    "state": "closed",
+    "locked": false,
+    "assignee": null,
+    "assignees": [
+
+    ],
+    "milestone": null,
+    "comments": 1,
+    "created_at": "2018-02-28T01:38:08Z",
+    "updated_at": "2018-03-25T10:44:48Z",
+    "closed_at": "2018-03-25T10:44:39Z",
+    "author_association": "CONTRIBUTOR",
+    "pull_request": {
+      "url": "https://api.github.com/repos/vmg/redcarpet/pulls/650",
+      "html_url": "https://github.com/vmg/redcarpet/pull/650",
+      "diff_url": "https://github.com/vmg/redcarpet/pull/650.diff",
+      "patch_url": "https://github.com/vmg/redcarpet/pull/650.patch"
+    },
+    "body": "When running in verbose mode (`-w` or `--verbose` or `$VERBOSE = true`), when instantiating any renderer (subclass of `Redcarpet::Render::Base`) without parameters, warning is shown about `@options` not initialized:\r\n\r\n```\r\nwarning: instance variable @options not initialized\r\n```\r\n\r\n(For example, it can be seen if running `RUBYOPT=-w rake test`)\r\n\r\nIt's caused by accessing `@options` with `rb_iv_get`:\r\n\r\nhttps://github.com/vmg/redcarpet/blob/1c71f5edcd113d6eb8fcc17cde17878b8adcd3d0/ext/redcarpet/rc_render.c#L414-L415\r\n\r\nReplaced it with `rb_attr_get`, [according to source](https://github.com/ruby/ruby/blob/015a415ee3e721f42be6e29168aed4c0fcd8e18f/variable.c#L1211-L1229), it's the same as `rb_ivar_get` but without warnings and without conversion of undef to nil, not sure if it's the right method by design (seems that it is).\r\n\r\nAlso not sure what is purpose for `@options` in render objects: there are no reads of it and all options are passed to actual renderer in constructor only, overwriting `@options` later is meaningless. `Redcarpet::Markdown` object [adds its options to it when initialized](https://github.com/vmg/redcarpet/blob/1c71f5edcd113d6eb8fcc17cde17878b8adcd3d0/ext/redcarpet/rc_markdown.c#L116-L120) but I can't figure out where these options are used (and these options are not for renderer but for \"extensions\"). Update: it's feature #560 and intended for custom renderers to be able to access \"extension options\" and not only renderer options passed in constructor.\r\n\r\nI can try to detect warnings in tests, but I'm not sure if it's right idea (it can only be done in quirky ways such as capturing stderr), so not changed tests for now."
+  },
+  {
+    "url": "https://api.github.com/repos/vmg/redcarpet/issues/649",
+    "repository_url": "https://api.github.com/repos/vmg/redcarpet",
+    "labels_url": "https://api.github.com/repos/vmg/redcarpet/issues/649/labels{/name}",
+    "comments_url": "https://api.github.com/repos/vmg/redcarpet/issues/649/comments",
+    "events_url": "https://api.github.com/repos/vmg/redcarpet/issues/649/events",
+    "html_url": "https://github.com/vmg/redcarpet/pull/649",
+    "id": 298324863,
+    "number": 649,
+    "title": "Run redcarpet in redcarpet_bin_test with the interpreter the test sta…",
+    "user": {
+      "login": "rbalint",
+      "id": 1520835,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1520835?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rbalint",
+      "html_url": "https://github.com/rbalint",
+      "followers_url": "https://api.github.com/users/rbalint/followers",
+      "following_url": "https://api.github.com/users/rbalint/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rbalint/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rbalint/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rbalint/subscriptions",
+      "organizations_url": "https://api.github.com/users/rbalint/orgs",
+      "repos_url": "https://api.github.com/users/rbalint/repos",
+      "events_url": "https://api.github.com/users/rbalint/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rbalint/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+
+    ],
+    "state": "closed",
+    "locked": false,
+    "assignee": null,
+    "assignees": [
+
+    ],
+    "milestone": null,
+    "comments": 2,
+    "created_at": "2018-02-19T15:56:29Z",
+    "updated_at": "2018-03-25T11:34:56Z",
+    "closed_at": "2018-03-25T11:34:35Z",
+    "author_association": "CONTRIBUTOR",
+    "pull_request": {
+      "url": "https://api.github.com/repos/vmg/redcarpet/pulls/649",
+      "html_url": "https://github.com/vmg/redcarpet/pull/649",
+      "diff_url": "https://github.com/vmg/redcarpet/pull/649.diff",
+      "patch_url": "https://github.com/vmg/redcarpet/pull/649.patch"
+    },
+    "body": "…rted with\r\n\r\nThis fixes test failure for Ruby 2.5 when Ruby 2.3 is the default installed\r\nversion."
+  },
+  {
+    "url": "https://api.github.com/repos/vmg/redcarpet/issues/647",
+    "repository_url": "https://api.github.com/repos/vmg/redcarpet",
+    "labels_url": "https://api.github.com/repos/vmg/redcarpet/issues/647/labels{/name}",
+    "comments_url": "https://api.github.com/repos/vmg/redcarpet/issues/647/comments",
+    "events_url": "https://api.github.com/repos/vmg/redcarpet/issues/647/events",
+    "html_url": "https://github.com/vmg/redcarpet/pull/647",
+    "id": 294756982,
+    "number": 647,
+    "title": "Update README.markdown",
+    "user": {
+      "login": "Davidslv",
+      "id": 136777,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/136777?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Davidslv",
+      "html_url": "https://github.com/Davidslv",
+      "followers_url": "https://api.github.com/users/Davidslv/followers",
+      "following_url": "https://api.github.com/users/Davidslv/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Davidslv/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Davidslv/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Davidslv/subscriptions",
+      "organizations_url": "https://api.github.com/users/Davidslv/orgs",
+      "repos_url": "https://api.github.com/users/Davidslv/repos",
+      "events_url": "https://api.github.com/users/Davidslv/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Davidslv/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+
+    ],
+    "state": "closed",
+    "locked": false,
+    "assignee": null,
+    "assignees": [
+
+    ],
+    "milestone": null,
+    "comments": 1,
+    "created_at": "2018-02-06T13:21:49Z",
+    "updated_at": "2018-02-06T16:02:17Z",
+    "closed_at": "2018-02-06T16:02:17Z",
+    "author_association": "CONTRIBUTOR",
+    "pull_request": {
+      "url": "https://api.github.com/repos/vmg/redcarpet/pulls/647",
+      "html_url": "https://github.com/vmg/redcarpet/pull/647",
+      "diff_url": "https://github.com/vmg/redcarpet/pull/647.diff",
+      "patch_url": "https://github.com/vmg/redcarpet/pull/647.patch"
+    },
+    "body": "The original url no longer exists.\r\nThis commit is to replace it with an archive version of the article.\r\n\r\nMaybe a better solution will be having some examples in the repo (or use the wiki) but I leave that decision to you.\r\n\r\nThank you,\r\nDavid"
+  },
+  {
+    "url": "https://api.github.com/repos/vmg/redcarpet/issues/646",
+    "repository_url": "https://api.github.com/repos/vmg/redcarpet",
+    "labels_url": "https://api.github.com/repos/vmg/redcarpet/issues/646/labels{/name}",
+    "comments_url": "https://api.github.com/repos/vmg/redcarpet/issues/646/comments",
+    "events_url": "https://api.github.com/repos/vmg/redcarpet/issues/646/events",
+    "html_url": "https://github.com/vmg/redcarpet/pull/646",
+    "id": 294444446,
+    "number": 646,
+    "title": "Remove Ruby 1.9 support following rake",
+    "user": {
+      "login": "nicolasleger",
+      "id": 570901,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/570901?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/nicolasleger",
+      "html_url": "https://github.com/nicolasleger",
+      "followers_url": "https://api.github.com/users/nicolasleger/followers",
+      "following_url": "https://api.github.com/users/nicolasleger/following{/other_user}",
+      "gists_url": "https://api.github.com/users/nicolasleger/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/nicolasleger/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/nicolasleger/subscriptions",
+      "organizations_url": "https://api.github.com/users/nicolasleger/orgs",
+      "repos_url": "https://api.github.com/users/nicolasleger/repos",
+      "events_url": "https://api.github.com/users/nicolasleger/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/nicolasleger/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+
+    ],
+    "state": "closed",
+    "locked": false,
+    "assignee": null,
+    "assignees": [
+
+    ],
+    "milestone": null,
+    "comments": 1,
+    "created_at": "2018-02-05T15:58:39Z",
+    "updated_at": "2018-02-05T22:50:08Z",
+    "closed_at": "2018-02-05T22:50:03Z",
+    "author_association": "CONTRIBUTOR",
+    "pull_request": {
+      "url": "https://api.github.com/repos/vmg/redcarpet/pulls/646",
+      "html_url": "https://github.com/vmg/redcarpet/pull/646",
+      "diff_url": "https://github.com/vmg/redcarpet/pull/646.diff",
+      "patch_url": "https://github.com/vmg/redcarpet/pull/646.patch"
+    },
+    "body": ""
+  },
+  {
+    "url": "https://api.github.com/repos/vmg/redcarpet/issues/645",
+    "repository_url": "https://api.github.com/repos/vmg/redcarpet",
+    "labels_url": "https://api.github.com/repos/vmg/redcarpet/issues/645/labels{/name}",
+    "comments_url": "https://api.github.com/repos/vmg/redcarpet/issues/645/comments",
+    "events_url": "https://api.github.com/repos/vmg/redcarpet/issues/645/events",
+    "html_url": "https://github.com/vmg/redcarpet/pull/645",
+    "id": 294440866,
+    "number": 645,
+    "title": "[CI] Test against new Ruby 2.5",
+    "user": {
+      "login": "nicolasleger",
+      "id": 570901,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/570901?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/nicolasleger",
+      "html_url": "https://github.com/nicolasleger",
+      "followers_url": "https://api.github.com/users/nicolasleger/followers",
+      "following_url": "https://api.github.com/users/nicolasleger/following{/other_user}",
+      "gists_url": "https://api.github.com/users/nicolasleger/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/nicolasleger/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/nicolasleger/subscriptions",
+      "organizations_url": "https://api.github.com/users/nicolasleger/orgs",
+      "repos_url": "https://api.github.com/users/nicolasleger/repos",
+      "events_url": "https://api.github.com/users/nicolasleger/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/nicolasleger/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+
+    ],
+    "state": "closed",
+    "locked": false,
+    "assignee": null,
+    "assignees": [
+
+    ],
+    "milestone": null,
+    "comments": 1,
+    "created_at": "2018-02-05T15:49:33Z",
+    "updated_at": "2018-03-25T11:00:17Z",
+    "closed_at": "2018-03-25T10:46:38Z",
+    "author_association": "CONTRIBUTOR",
+    "pull_request": {
+      "url": "https://api.github.com/repos/vmg/redcarpet/pulls/645",
+      "html_url": "https://github.com/vmg/redcarpet/pull/645",
+      "diff_url": "https://github.com/vmg/redcarpet/pull/645.diff",
+      "patch_url": "https://github.com/vmg/redcarpet/pull/645.patch"
+    },
+    "body": ""
+  },
+  {
+    "url": "https://api.github.com/repos/vmg/redcarpet/issues/643",
+    "repository_url": "https://api.github.com/repos/vmg/redcarpet",
+    "labels_url": "https://api.github.com/repos/vmg/redcarpet/issues/643/labels{/name}",
+    "comments_url": "https://api.github.com/repos/vmg/redcarpet/issues/643/comments",
+    "events_url": "https://api.github.com/repos/vmg/redcarpet/issues/643/events",
+    "html_url": "https://github.com/vmg/redcarpet/issues/643",
+    "id": 287525491,
+    "number": 643,
+    "title": "None of my extensions work?",
+    "user": {
+      "login": "9mm",
+      "id": 1386207,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1386207?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/9mm",
+      "html_url": "https://github.com/9mm",
+      "followers_url": "https://api.github.com/users/9mm/followers",
+      "following_url": "https://api.github.com/users/9mm/following{/other_user}",
+      "gists_url": "https://api.github.com/users/9mm/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/9mm/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/9mm/subscriptions",
+      "organizations_url": "https://api.github.com/users/9mm/orgs",
+      "repos_url": "https://api.github.com/users/9mm/repos",
+      "events_url": "https://api.github.com/users/9mm/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/9mm/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+
+    ],
+    "state": "closed",
+    "locked": false,
+    "assignee": null,
+    "assignees": [
+
+    ],
+    "milestone": null,
+    "comments": 3,
+    "created_at": "2018-01-10T18:00:50Z",
+    "updated_at": "2018-03-25T11:39:21Z",
+    "closed_at": "2018-03-25T11:39:20Z",
+    "author_association": "NONE",
+    "body": "Hmm, I have a very basic use case and none of them are working...\r\n\r\n```\r\nRedcarpet::Markdown.new(Redcarpet::Render::HTML, { \r\n  filter_html: true,                               \r\n  safe_links_only: true,                           \r\n  link_attributes: {target: '_blank'}              \r\n}).render(markdown)                                \r\n```                                                \r\nThe only one that works is `autolink: true`, so I'm positive that it does see the extensions to begin with. But `filter_html` lets me inject custom HTML and script tags right into the output. `link_attributes` also does absolutely nothing."
+  },
+  {
+    "url": "https://api.github.com/repos/vmg/redcarpet/issues/642",
+    "repository_url": "https://api.github.com/repos/vmg/redcarpet",
+    "labels_url": "https://api.github.com/repos/vmg/redcarpet/issues/642/labels{/name}",
+    "comments_url": "https://api.github.com/repos/vmg/redcarpet/issues/642/comments",
+    "events_url": "https://api.github.com/repos/vmg/redcarpet/issues/642/events",
+    "html_url": "https://github.com/vmg/redcarpet/pull/642",
+    "id": 285539371,
+    "number": 642,
+    "title": "[ci skip] Add CodeTriage badge",
+    "user": {
+      "login": "schneems",
+      "id": 59744,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/59744?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/schneems",
+      "html_url": "https://github.com/schneems",
+      "followers_url": "https://api.github.com/users/schneems/followers",
+      "following_url": "https://api.github.com/users/schneems/following{/other_user}",
+      "gists_url": "https://api.github.com/users/schneems/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/schneems/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/schneems/subscriptions",
+      "organizations_url": "https://api.github.com/users/schneems/orgs",
+      "repos_url": "https://api.github.com/users/schneems/repos",
+      "events_url": "https://api.github.com/users/schneems/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/schneems/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+
+    ],
+    "state": "closed",
+    "locked": false,
+    "assignee": null,
+    "assignees": [
+
+    ],
+    "milestone": null,
+    "comments": 1,
+    "created_at": "2018-01-02T21:16:00Z",
+    "updated_at": "2018-01-02T23:02:54Z",
+    "closed_at": "2018-01-02T23:02:54Z",
+    "author_association": "CONTRIBUTOR",
+    "pull_request": {
+      "url": "https://api.github.com/repos/vmg/redcarpet/pulls/642",
+      "html_url": "https://github.com/vmg/redcarpet/pull/642",
+      "diff_url": "https://github.com/vmg/redcarpet/pull/642.diff",
+      "patch_url": "https://github.com/vmg/redcarpet/pull/642.patch"
+    },
+    "body": "[CodeTriage](https://www.codetriage.com/) is an app I have maintained\nfor the past 4-5 years with the goal of getting people involved in\nOpen Source projects like this one. The app sends subscribers a random\nopen issue for them to help \"triage\". For some languages you can also\nsuggested areas to add documentation.\n\nThe initial approach was inspired by seeing the work of the small\ncore team spending countless hours asking \"what version was\nthis in\" and \"can you give us an example app\". The idea is to\noutsource these small interactions to a huge team of volunteers\nand let the core team focus on their work.\n\nI want to add a badge to the README of this project. The idea is to\nprovide an easy link for people to get started contributing to this\nproject. A badge indicates the number of people currently subscribed\nto help the repo. The color is based off of open issues in the project.\n\nHere are some examples of other projects that have a badge in their\nREADME:\n\n- https://github.com/crystal-lang/crystal\n- https://github.com/rails/rails\n- https://github.com/codetriage/codetriage\n\nThanks for building open source software, I would love to help you find some helpers."
+  },
+  {
+    "url": "https://api.github.com/repos/vmg/redcarpet/issues/641",
+    "repository_url": "https://api.github.com/repos/vmg/redcarpet",
+    "labels_url": "https://api.github.com/repos/vmg/redcarpet/issues/641/labels{/name}",
+    "comments_url": "https://api.github.com/repos/vmg/redcarpet/issues/641/comments",
+    "events_url": "https://api.github.com/repos/vmg/redcarpet/issues/641/events",
+    "html_url": "https://github.com/vmg/redcarpet/issues/641",
+    "id": 285239907,
+    "number": 641,
+    "title": "Documentation",
+    "user": {
+      "login": "AaronRohrbacher",
+      "id": 30248832,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/30248832?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/AaronRohrbacher",
+      "html_url": "https://github.com/AaronRohrbacher",
+      "followers_url": "https://api.github.com/users/AaronRohrbacher/followers",
+      "following_url": "https://api.github.com/users/AaronRohrbacher/following{/other_user}",
+      "gists_url": "https://api.github.com/users/AaronRohrbacher/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/AaronRohrbacher/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/AaronRohrbacher/subscriptions",
+      "organizations_url": "https://api.github.com/users/AaronRohrbacher/orgs",
+      "repos_url": "https://api.github.com/users/AaronRohrbacher/repos",
+      "events_url": "https://api.github.com/users/AaronRohrbacher/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/AaronRohrbacher/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+
+    ],
+    "state": "closed",
+    "locked": false,
+    "assignee": null,
+    "assignees": [
+
+    ],
+    "milestone": null,
+    "comments": 2,
+    "created_at": "2017-12-31T04:51:39Z",
+    "updated_at": "2018-01-01T21:35:24Z",
+    "closed_at": "2018-01-01T21:35:24Z",
+    "author_association": "NONE",
+    "body": "This documentation doesn't work, and is unusable."
+  },
+  {
+    "url": "https://api.github.com/repos/vmg/redcarpet/issues/640",
+    "repository_url": "https://api.github.com/repos/vmg/redcarpet",
+    "labels_url": "https://api.github.com/repos/vmg/redcarpet/issues/640/labels{/name}",
+    "comments_url": "https://api.github.com/repos/vmg/redcarpet/issues/640/comments",
+    "events_url": "https://api.github.com/repos/vmg/redcarpet/issues/640/events",
+    "html_url": "https://github.com/vmg/redcarpet/issues/640",
+    "id": 282291072,
+    "number": 640,
+    "title": "How to preprocess the \"src\" value for img?",
+    "user": {
+      "login": "GildedHonour",
+      "id": 2032888,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/2032888?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/GildedHonour",
+      "html_url": "https://github.com/GildedHonour",
+      "followers_url": "https://api.github.com/users/GildedHonour/followers",
+      "following_url": "https://api.github.com/users/GildedHonour/following{/other_user}",
+      "gists_url": "https://api.github.com/users/GildedHonour/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/GildedHonour/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/GildedHonour/subscriptions",
+      "organizations_url": "https://api.github.com/users/GildedHonour/orgs",
+      "repos_url": "https://api.github.com/users/GildedHonour/repos",
+      "events_url": "https://api.github.com/users/GildedHonour/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/GildedHonour/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+
+    ],
+    "state": "closed",
+    "locked": false,
+    "assignee": null,
+    "assignees": [
+
+    ],
+    "milestone": null,
+    "comments": 2,
+    "created_at": "2017-12-15T01:18:17Z",
+    "updated_at": "2018-03-25T11:55:55Z",
+    "closed_at": "2018-03-25T11:55:55Z",
+    "author_association": "NONE",
+    "body": "Is it possible to preprocess/change the \"src\" value for all my img tags in a text? something like\r\n```\r\n\r\n     text = \"dfsfdsfds [img src='something.jpg']aaa[/img]\"\r\n     res = markdown.preprocess(text, \"img\") {|img| img[\"src\"] = \"some_path/\" + img[\"src\"] }.  \r\n                                  render\r\n```"
+  },
+  {
+    "url": "https://api.github.com/repos/vmg/redcarpet/issues/639",
+    "repository_url": "https://api.github.com/repos/vmg/redcarpet",
+    "labels_url": "https://api.github.com/repos/vmg/redcarpet/issues/639/labels{/name}",
+    "comments_url": "https://api.github.com/repos/vmg/redcarpet/issues/639/comments",
+    "events_url": "https://api.github.com/repos/vmg/redcarpet/issues/639/events",
+    "html_url": "https://github.com/vmg/redcarpet/issues/639",
+    "id": 280109106,
+    "number": 639,
+    "title": "StripDown causes a core dump when passed quote: true",
+    "user": {
+      "login": "WillHennessey",
+      "id": 25850666,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/25850666?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/WillHennessey",
+      "html_url": "https://github.com/WillHennessey",
+      "followers_url": "https://api.github.com/users/WillHennessey/followers",
+      "following_url": "https://api.github.com/users/WillHennessey/following{/other_user}",
+      "gists_url": "https://api.github.com/users/WillHennessey/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/WillHennessey/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/WillHennessey/subscriptions",
+      "organizations_url": "https://api.github.com/users/WillHennessey/orgs",
+      "repos_url": "https://api.github.com/users/WillHennessey/repos",
+      "events_url": "https://api.github.com/users/WillHennessey/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/WillHennessey/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+
+    ],
+    "state": "closed",
+    "locked": false,
+    "assignee": null,
+    "assignees": [
+
+    ],
+    "milestone": null,
+    "comments": 1,
+    "created_at": "2017-12-07T12:17:43Z",
+    "updated_at": "2018-03-25T13:08:18Z",
+    "closed_at": "2018-03-25T13:07:12Z",
+    "author_association": "NONE",
+    "body": "Hi guys, I've encountered an issue with the StripDown renderer, I've added an example so you can reproduce the issue below. I've also included a shortened version of the core dump error message\r\n\r\n```\r\nstring = \"\\\"Some inspirational BS\\\"\"\r\nmarkdown = Redcarpet::Markdown.new(Redcarpet::Render::StripDown, quote: true)\r\nmarkdown.render(string)\r\n```\r\n```\r\n7f7242141000-7f7242146000 rw-p 00000000 00:00 0                          [stack:24023]\r\n7f7242146000-7f7242147000 r--p 00022000 08:01 2025                       /lib/x86_64-linux-gnu/ld-2.19.so\r\n7f7242147000-7f7242148000 rw-p 00023000 08:01 2025                       /lib/x86_64-linux-gnu/ld-2.19.so\r\n7f7242148000-7f7242149000 rw-p 00000000 00:00 0 \r\n7ffeae7a9000-7ffeaefa9000 rw-p 00000000 00:00 0 \r\n7ffeaefab000-7ffeaefad000 r-xp 00000000 00:00 0                          [vdso]\r\nffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsyscall]\r\n\r\n\r\n[NOTE]\r\nYou may have encountered a bug in the Ruby interpreter or extension libraries.\r\nBug reports are welcome.\r\nFor details: http://www.ruby-lang.org/bugreport.html\r\n```"
+  },
+  {
+    "url": "https://api.github.com/repos/vmg/redcarpet/issues/635",
+    "repository_url": "https://api.github.com/repos/vmg/redcarpet",
+    "labels_url": "https://api.github.com/repos/vmg/redcarpet/issues/635/labels{/name}",
+    "comments_url": "https://api.github.com/repos/vmg/redcarpet/issues/635/comments",
+    "events_url": "https://api.github.com/repos/vmg/redcarpet/issues/635/events",
+    "html_url": "https://github.com/vmg/redcarpet/issues/635",
+    "id": 276439643,
+    "number": 635,
+    "title": "customizing rendering to add dynamic attributes to links",
+    "user": {
+      "login": "btc",
+      "id": 734339,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/734339?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/btc",
+      "html_url": "https://github.com/btc",
+      "followers_url": "https://api.github.com/users/btc/followers",
+      "following_url": "https://api.github.com/users/btc/following{/other_user}",
+      "gists_url": "https://api.github.com/users/btc/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/btc/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/btc/subscriptions",
+      "organizations_url": "https://api.github.com/users/btc/orgs",
+      "repos_url": "https://api.github.com/users/btc/repos",
+      "events_url": "https://api.github.com/users/btc/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/btc/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+
+    ],
+    "state": "closed",
+    "locked": false,
+    "assignee": null,
+    "assignees": [
+
+    ],
+    "milestone": null,
+    "comments": 1,
+    "created_at": "2017-11-23T17:13:23Z",
+    "updated_at": "2017-11-25T21:34:03Z",
+    "closed_at": "2017-11-25T21:34:03Z",
+    "author_association": "NONE",
+    "body": "I am trying to rewrite all `<a>` elements to include an `onclick` attribute that depends on the value of the `href` attribute. What's the best entrypoint for customization to pull this off?\r\n\r\nExample:\r\n``` html\r\n<a href=\"http://www.example.com\" onclick=\"trackOutboundLink('http://www.example.com'); return false;\">Check out example.com</a>\r\n```"
+  },
+  {
+    "url": "https://api.github.com/repos/vmg/redcarpet/issues/634",
+    "repository_url": "https://api.github.com/repos/vmg/redcarpet",
+    "labels_url": "https://api.github.com/repos/vmg/redcarpet/issues/634/labels{/name}",
+    "comments_url": "https://api.github.com/repos/vmg/redcarpet/issues/634/comments",
+    "events_url": "https://api.github.com/repos/vmg/redcarpet/issues/634/events",
+    "html_url": "https://github.com/vmg/redcarpet/issues/634",
+    "id": 275848314,
+    "number": 634,
+    "title": "ActionView::Template::Error (Symbol or String expected, nilClass given.)",
+    "user": {
+      "login": "ldco2016",
+      "id": 13081018,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/13081018?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ldco2016",
+      "html_url": "https://github.com/ldco2016",
+      "followers_url": "https://api.github.com/users/ldco2016/followers",
+      "following_url": "https://api.github.com/users/ldco2016/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ldco2016/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ldco2016/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ldco2016/subscriptions",
+      "organizations_url": "https://api.github.com/users/ldco2016/orgs",
+      "repos_url": "https://api.github.com/users/ldco2016/repos",
+      "events_url": "https://api.github.com/users/ldco2016/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ldco2016/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+
+    ],
+    "state": "closed",
+    "locked": false,
+    "assignee": null,
+    "assignees": [
+
+    ],
+    "milestone": null,
+    "comments": 1,
+    "created_at": "2017-11-21T20:25:16Z",
+    "updated_at": "2017-11-25T21:41:52Z",
+    "closed_at": "2017-11-25T21:41:51Z",
+    "author_association": "NONE",
+    "body": "Greetings, I have come upon a similar issue with similar code as a former closed issue you had before:\r\n\r\n```ruby\r\nmodule BlogsHelper\r\n\tdef gravatar_helper user\r\n\t\timage_tag \"https://www.gravatar.com/avatar/#{Digest::MD5.hexdigest(user.email)}\", width: 60\r\n\tend\r\n\r\n\tclass CodeRayify < Redcarpet::Render::HTML\r\n\t\tdef block_code(code, language)\r\n\t\t\tCodeRay.scan(code, language).div\r\n\t\tend\r\n\tend\r\n\r\n\tdef markdown(text)\r\n\t\tcoderayify = CodeRayify.new(filter_html: true, hard_wrap: true)\r\n\r\n\t\toptions = {\r\n\t\t\tfenced_code_blocks: true,\r\n\t\t\tno_intra_emphasis: true,\r\n\t\t\tautolink: true,\r\n\t\t\tlax_html_blocks: true,\r\n\t\t}\r\n\r\n\t\tmarkdown_to_html = Redcarpet::Markdown.new(coderayify, options)\r\n\t\tmarkdown_to_html.render(text).html_safe\r\n\tend\r\n\r\n\tdef blog_status_color blog\r\n\t\t'color: red;' if blog.draft?\r\n\tend\r\nend\r\n\r\n```\r\n\r\nThe difference is my error in the logs say:\r\n\r\n```\r\nActionView::Template::Error (Symbol or String expected, but NilClass given.):\r\n2017-11-21T19:04:10.635079+00:00 app[web.1]: F, [2017-11-21T19:04:10.635014 #4] FATAL -- : [9091d983-bc39-4f64-b86e-c388e3893072]     4:\r\n2017-11-21T19:04:10.635081+00:00 app[web.1]: [9091d983-bc39-4f64-b86e-c388e3893072]     5:     <%= render partial: 'blogs/admin_actions', locals: {blog: blog} %>\r\n2017-11-21T19:04:10.635082+00:00 app[web.1]: [9091d983-bc39-4f64-b86e-c388e3893072]     6:\r\n2017-11-21T19:04:10.635083+00:00 app[web.1]: [9091d983-bc39-4f64-b86e-c388e3893072]     7:     <p><%= markdown blog.body %></p>\r\n2017-11-21T19:04:10.635083+00:00 app[web.1]: [9091d983-bc39-4f64-b86e-c388e3893072]     8:\r\n2017-11-21T19:04:10.635084+00:00 app[web.1]: [9091d983-bc39-4f64-b86e-c388e3893072]     9:  </div><!-- /.blog-post -->\r\n2017-11-21T19:04:10.635166+00:00 app[web.1]: F, [2017-11-21T19:04:10.635106 #4] FATAL -- : [9091d983-bc39-4f64-b86e-c388e3893072]\r\n2017-11-21T19:04:10.635268+00:00 app[web.1]: F, [2017-11-21T19:04:10.635198 #4] FATAL -- : [9091d983-bc39-4f64-b86e-c388e3893072] app/helpers/blogs_helper.rb:8:in `block_code'\r\n2017-11-21T19:04:10.635270+00:00 app[web.1]: [9091d983-bc39-4f64-b86e-c388e3893072] app/helpers/blogs_helper.rb:23:in `render'\r\n2017-11-21T19:04:10.635271+00:00 app[web.1]: [9091d983-bc39-4f64-b86e-c388e3893072] app/helpers/blogs_helper.rb:23:in `markdown'\r\n```\r\nAny guidance on what is going on here is appreciated."
+  },
+  {
+    "url": "https://api.github.com/repos/vmg/redcarpet/issues/632",
+    "repository_url": "https://api.github.com/repos/vmg/redcarpet",
+    "labels_url": "https://api.github.com/repos/vmg/redcarpet/issues/632/labels{/name}",
+    "comments_url": "https://api.github.com/repos/vmg/redcarpet/issues/632/comments",
+    "events_url": "https://api.github.com/repos/vmg/redcarpet/issues/632/events",
+    "html_url": "https://github.com/vmg/redcarpet/pull/632",
+    "id": 270453287,
+    "number": 632,
+    "title": "master",
+    "user": {
+      "login": "270815",
+      "id": 32989889,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/32989889?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/270815",
+      "html_url": "https://github.com/270815",
+      "followers_url": "https://api.github.com/users/270815/followers",
+      "following_url": "https://api.github.com/users/270815/following{/other_user}",
+      "gists_url": "https://api.github.com/users/270815/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/270815/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/270815/subscriptions",
+      "organizations_url": "https://api.github.com/users/270815/orgs",
+      "repos_url": "https://api.github.com/users/270815/repos",
+      "events_url": "https://api.github.com/users/270815/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/270815/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+
+    ],
+    "state": "closed",
+    "locked": false,
+    "assignee": null,
+    "assignees": [
+
+    ],
+    "milestone": null,
+    "comments": 1,
+    "created_at": "2017-11-01T21:08:32Z",
+    "updated_at": "2017-11-03T03:42:16Z",
+    "closed_at": "2017-11-03T03:42:16Z",
+    "author_association": "NONE",
+    "pull_request": {
+      "url": "https://api.github.com/repos/vmg/redcarpet/pulls/632",
+      "html_url": "https://github.com/vmg/redcarpet/pull/632",
+      "diff_url": "https://github.com/vmg/redcarpet/pull/632.diff",
+      "patch_url": "https://github.com/vmg/redcarpet/pull/632.patch"
+    },
+    "body": ""
+  },
+  {
+    "url": "https://api.github.com/repos/vmg/redcarpet/issues/631",
+    "repository_url": "https://api.github.com/repos/vmg/redcarpet",
+    "labels_url": "https://api.github.com/repos/vmg/redcarpet/issues/631/labels{/name}",
+    "comments_url": "https://api.github.com/repos/vmg/redcarpet/issues/631/comments",
+    "events_url": "https://api.github.com/repos/vmg/redcarpet/issues/631/events",
+    "html_url": "https://github.com/vmg/redcarpet/issues/631",
+    "id": 261711969,
+    "number": 631,
+    "title": "Email obfuscation",
+    "user": {
+      "login": "MrKickkiller",
+      "id": 5099359,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/5099359?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MrKickkiller",
+      "html_url": "https://github.com/MrKickkiller",
+      "followers_url": "https://api.github.com/users/MrKickkiller/followers",
+      "following_url": "https://api.github.com/users/MrKickkiller/following{/other_user}",
+      "gists_url": "https://api.github.com/users/MrKickkiller/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/MrKickkiller/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/MrKickkiller/subscriptions",
+      "organizations_url": "https://api.github.com/users/MrKickkiller/orgs",
+      "repos_url": "https://api.github.com/users/MrKickkiller/repos",
+      "events_url": "https://api.github.com/users/MrKickkiller/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/MrKickkiller/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+
+    ],
+    "state": "closed",
+    "locked": false,
+    "assignee": null,
+    "assignees": [
+
+    ],
+    "milestone": null,
+    "comments": 1,
+    "created_at": "2017-09-29T17:34:27Z",
+    "updated_at": "2017-11-12T21:12:39Z",
+    "closed_at": "2017-11-12T21:12:39Z",
+    "author_association": "NONE",
+    "body": "I'm using Redcarpet for parsing user-provided markdown content. \r\n\r\nI want to avoid that a user inputs an email address in simple text, and it coming up in plain text in the parsed view. So I want to obfuscate all email adresses to avoid spam bots.\r\n\r\n| Raw html  | Condition  |\r\n|---|---|\r\n| `myemail@example.com`  | User input  |\r\n| `<a href=\"mailto:myemail@example.com\" rel=\"nofollow\" target=\"_blank\">myemail@example.com</a>` | Browser html  |\r\n| `<a href=\"mailto:myemail@example.com\" rel=\"nofollow\" target=\"_blank\">myemail@example.com</a>` | Curl |\r\n\r\nGenerated via the following ruby code\r\n```ruby\r\n@@html_renderer ||= Redcarpet::Markdown.new(\r\n        Redcarpet::Render::HTML.new(\r\n            escape_html: true,\r\n            hard_wrap: true,\r\n            link_attributes: {rel: 'nofollow', target: '_blank'},\r\n            space_after_headers: true,\r\n            fenced_code_blocks: true,\r\n            safe_links_only: true\r\n        ),\r\n        autolink: true,\r\n        superscript: true,\r\n        disable_indented_code_blocks: true,\r\n        tables: true,\r\n        strikethrough: true\r\n    )\r\n```\r\n\r\nAnyone that has an idea on how to efficiently achieve this?"
+  },
+  {
+    "url": "https://api.github.com/repos/vmg/redcarpet/issues/629",
+    "repository_url": "https://api.github.com/repos/vmg/redcarpet",
+    "labels_url": "https://api.github.com/repos/vmg/redcarpet/issues/629/labels{/name}",
+    "comments_url": "https://api.github.com/repos/vmg/redcarpet/issues/629/comments",
+    "events_url": "https://api.github.com/repos/vmg/redcarpet/issues/629/events",
+    "html_url": "https://github.com/vmg/redcarpet/issues/629",
+    "id": 252804135,
+    "number": 629,
+    "title": "[bug] genarate duplicated headers links hash",
+    "user": {
+      "login": "keiaihara",
+      "id": 1848866,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1848866?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/keiaihara",
+      "html_url": "https://github.com/keiaihara",
+      "followers_url": "https://api.github.com/users/keiaihara/followers",
+      "following_url": "https://api.github.com/users/keiaihara/following{/other_user}",
+      "gists_url": "https://api.github.com/users/keiaihara/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/keiaihara/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/keiaihara/subscriptions",
+      "organizations_url": "https://api.github.com/users/keiaihara/orgs",
+      "repos_url": "https://api.github.com/users/keiaihara/repos",
+      "events_url": "https://api.github.com/users/keiaihara/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/keiaihara/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+
+    ],
+    "state": "closed",
+    "locked": false,
+    "assignee": null,
+    "assignees": [
+
+    ],
+    "milestone": null,
+    "comments": 2,
+    "created_at": "2017-08-25T05:46:10Z",
+    "updated_at": "2017-09-02T19:06:03Z",
+    "closed_at": "2017-08-25T13:48:37Z",
+    "author_association": "NONE",
+    "body": "Its not working a tag hash.\r\nIf A header text is same as B header text, `href#` are duplicate , using `Redcarpet::Render::HTML.new(\r\n    with_toc_data: true\r\n )`\r\n\r\nI dont know why this problem happens...\r\nI just guess It seems like no-check wherther each of headers is unique when generate headers link..\r\n\r\n```html\r\n:\r\n<ul>\r\n  <li>hoge1</li>\r\n  <li>\r\n     <ul>\r\n        <li><a href=\"#part-ec2fb03c31af4bab\">hoge</a><li>\r\n     </ul>\r\n<li>hoge2</li>\r\n  <li>\r\n     <ul>\r\n        <li><a href=\"#part-ec2fb03c31af4bab\">hoge</a><li>\r\n     </ul>\r\n</li>\r\n:\r\n<h2>hoge1</h2>\r\n     <h3>hoge</h3>\r\n     <p>xxxxxxxxxx</p>\r\n<h2>hoge2</h2>\r\n     <h3>hoge</h3>\r\n     <p>xxxxxxxxxx</p>\r\n:\r\n```\r\n\r\nTks help us"
+  },
+  {
+    "url": "https://api.github.com/repos/vmg/redcarpet/issues/628",
+    "repository_url": "https://api.github.com/repos/vmg/redcarpet",
+    "labels_url": "https://api.github.com/repos/vmg/redcarpet/issues/628/labels{/name}",
+    "comments_url": "https://api.github.com/repos/vmg/redcarpet/issues/628/comments",
+    "events_url": "https://api.github.com/repos/vmg/redcarpet/issues/628/events",
+    "html_url": "https://github.com/vmg/redcarpet/issues/628",
+    "id": 251442765,
+    "number": 628,
+    "title": "Issue while installing (make \"DESTDIR=\")",
+    "user": {
+      "login": "mittalyashu",
+      "id": 29014463,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/29014463?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mittalyashu",
+      "html_url": "https://github.com/mittalyashu",
+      "followers_url": "https://api.github.com/users/mittalyashu/followers",
+      "following_url": "https://api.github.com/users/mittalyashu/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mittalyashu/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mittalyashu/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mittalyashu/subscriptions",
+      "organizations_url": "https://api.github.com/users/mittalyashu/orgs",
+      "repos_url": "https://api.github.com/users/mittalyashu/repos",
+      "events_url": "https://api.github.com/users/mittalyashu/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mittalyashu/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+      {
+        "id": 123969463,
+        "url": "https://api.github.com/repos/vmg/redcarpet/labels/Windows",
+        "name": "Windows",
+        "color": "fad8c7",
+        "default": false
+      }
+    ],
+    "state": "closed",
+    "locked": false,
+    "assignee": null,
+    "assignees": [
+
+    ],
+    "milestone": null,
+    "comments": 2,
+    "created_at": "2017-08-19T18:43:17Z",
+    "updated_at": "2017-08-23T16:42:35Z",
+    "closed_at": "2017-08-23T16:42:35Z",
+    "author_association": "NONE",
+    "body": "```\r\nC:\\Users\\YASHU\\Desktop\\Ruby on Rails\\blog>gem install redcarpet-3.4.0.gem\r\nTemporarily enhancing PATH to include DevKit...\r\nBuilding native extensions.  This could take a while...\r\nERROR:  Error installing redcarpet-3.4.0.gem:\r\n        ERROR: Failed to build gem native extension.\r\n\r\n    C:/Ruby22/bin/ruby.exe -r ./siteconf20170820-8428-dquugq.rb extconf.rb\r\ncreating Makefile\r\n\r\nmake \"DESTDIR=\" clean\r\n'make' is not recognized as an internal or external command,\r\noperable program or batch file.\r\n\r\nmake \"DESTDIR=\"\r\n'make' is not recognized as an internal or external command,\r\noperable program or batch file.\r\n\r\nmake failed, exit code 1\r\n\r\nGem files will remain installed in C:/Ruby22/lib/ruby/gems/2.2.0/gems/redcarpet-3.4.0 for inspection.\r\nResults logged to C:/Ruby22/lib/ruby/gems/2.2.0/extensions/x86-mingw32/2.2.0/redcarpet-3.4.0/gem_make.out\r\n```"
+  },
+  {
+    "url": "https://api.github.com/repos/vmg/redcarpet/issues/626",
+    "repository_url": "https://api.github.com/repos/vmg/redcarpet",
+    "labels_url": "https://api.github.com/repos/vmg/redcarpet/issues/626/labels{/name}",
+    "comments_url": "https://api.github.com/repos/vmg/redcarpet/issues/626/comments",
+    "events_url": "https://api.github.com/repos/vmg/redcarpet/issues/626/events",
+    "html_url": "https://github.com/vmg/redcarpet/pull/626",
+    "id": 249093620,
+    "number": 626,
+    "title": "Fix single quotes next to links for SmartyPants",
+    "user": {
+      "login": "robin850",
+      "id": 354185,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/354185?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/robin850",
+      "html_url": "https://github.com/robin850",
+      "followers_url": "https://api.github.com/users/robin850/followers",
+      "following_url": "https://api.github.com/users/robin850/following{/other_user}",
+      "gists_url": "https://api.github.com/users/robin850/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/robin850/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/robin850/subscriptions",
+      "organizations_url": "https://api.github.com/users/robin850/orgs",
+      "repos_url": "https://api.github.com/users/robin850/repos",
+      "events_url": "https://api.github.com/users/robin850/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/robin850/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+      {
+        "id": 74152857,
+        "url": "https://api.github.com/repos/vmg/redcarpet/labels/SmartyPants",
+        "name": "SmartyPants",
+        "color": "bfe5bf",
+        "default": false
+      }
+    ],
+    "state": "closed",
+    "locked": false,
+    "assignee": null,
+    "assignees": [
+
+    ],
+    "milestone": null,
+    "comments": 0,
+    "created_at": "2017-08-09T16:47:42Z",
+    "updated_at": "2017-08-09T17:07:33Z",
+    "closed_at": "2017-08-09T17:07:30Z",
+    "author_association": "COLLABORATOR",
+    "pull_request": {
+      "url": "https://api.github.com/repos/vmg/redcarpet/pulls/626",
+      "html_url": "https://github.com/vmg/redcarpet/pull/626",
+      "diff_url": "https://github.com/vmg/redcarpet/pull/626.diff",
+      "patch_url": "https://github.com/vmg/redcarpet/pull/626.patch"
+    },
+    "body": "Hello,\r\n\r\nThis pull request fixes single quotes next to links so that something like:\r\n\r\n~~~markdown\r\n[John](http://john.doe)'s cat\r\n~~~\r\n\r\nWill properly translates the single quote to a right single quote (i.e. `&rsquo;`).\r\n\r\nFixes #624.\r\n\r\nHave a nice day."
+  },
+  {
+    "url": "https://api.github.com/repos/vmg/redcarpet/issues/625",
+    "repository_url": "https://api.github.com/repos/vmg/redcarpet",
+    "labels_url": "https://api.github.com/repos/vmg/redcarpet/issues/625/labels{/name}",
+    "comments_url": "https://api.github.com/repos/vmg/redcarpet/issues/625/comments",
+    "events_url": "https://api.github.com/repos/vmg/redcarpet/issues/625/events",
+    "html_url": "https://github.com/vmg/redcarpet/issues/625",
+    "id": 248948973,
+    "number": 625,
+    "title": "fenced_code_blocks is not working as expected",
+    "user": {
+      "login": "Sohair63",
+      "id": 8349026,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/8349026?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Sohair63",
+      "html_url": "https://github.com/Sohair63",
+      "followers_url": "https://api.github.com/users/Sohair63/followers",
+      "following_url": "https://api.github.com/users/Sohair63/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Sohair63/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Sohair63/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Sohair63/subscriptions",
+      "organizations_url": "https://api.github.com/users/Sohair63/orgs",
+      "repos_url": "https://api.github.com/users/Sohair63/repos",
+      "events_url": "https://api.github.com/users/Sohair63/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Sohair63/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+
+    ],
+    "state": "closed",
+    "locked": false,
+    "assignee": null,
+    "assignees": [
+
+    ],
+    "milestone": null,
+    "comments": 2,
+    "created_at": "2017-08-09T08:03:34Z",
+    "updated_at": "2017-10-13T12:29:35Z",
+    "closed_at": "2017-10-13T12:29:35Z",
+    "author_association": "NONE",
+    "body": "Using \r\n`gem 'redcarpet', github: 'vmg/redcarpet', branch: 'master'`\r\n\r\nI am expecting result to be like a block as:\r\n\r\n```\r\nmake some nice lexed html\r\nsource = File.read('/etc/bashrc')\r\nformatter = Rouge::Formatters::HTML.new\r\nlexer = Rouge::Lexers::Shell.new\r\nformatter.format(lexer.lex(source))\r\nRouge::Themes::Base16.mode(:light).render(scope: '.highlight')\r\nRouge::Theme.find('base16.light').render(scope: '.highlight')\r\n```\r\n\r\n\r\nbut I am getting this:\r\n\r\n<img width=\"689\" alt=\"screen shot 2017-08-09 at 12 58 23 pm\" src=\"https://user-images.githubusercontent.com/8349026/29111125-8e89a548-7d02-11e7-8fbd-3d4f46ebbe5b.png\">\r\n\r\nwhat this problem is ?\r\n\r\nI check older versions of the gems too also not worked. not sure if this is related to the extensions or what.\r\n\r\nMy project have: (this might help to understand the problem)\r\n```\r\ngem 'rails', '5.1.3'\r\nruby 2.4.1\r\ngem 'foundation_rails_helper', '>= 3.0.0.rc2', '< 4.0'"
+  },
+  {
+    "url": "https://api.github.com/repos/vmg/redcarpet/issues/624",
+    "repository_url": "https://api.github.com/repos/vmg/redcarpet",
+    "labels_url": "https://api.github.com/repos/vmg/redcarpet/issues/624/labels{/name}",
+    "comments_url": "https://api.github.com/repos/vmg/redcarpet/issues/624/comments",
+    "events_url": "https://api.github.com/repos/vmg/redcarpet/issues/624/events",
+    "html_url": "https://github.com/vmg/redcarpet/issues/624",
+    "id": 248191368,
+    "number": 624,
+    "title": "[SmartyPants] Incorrect single quote rendered around Markdown links",
+    "user": {
+      "login": "jgarber623",
+      "id": 73866,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/73866?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jgarber623",
+      "html_url": "https://github.com/jgarber623",
+      "followers_url": "https://api.github.com/users/jgarber623/followers",
+      "following_url": "https://api.github.com/users/jgarber623/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jgarber623/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jgarber623/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jgarber623/subscriptions",
+      "organizations_url": "https://api.github.com/users/jgarber623/orgs",
+      "repos_url": "https://api.github.com/users/jgarber623/repos",
+      "events_url": "https://api.github.com/users/jgarber623/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jgarber623/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+      {
+        "id": 74152857,
+        "url": "https://api.github.com/repos/vmg/redcarpet/labels/SmartyPants",
+        "name": "SmartyPants",
+        "color": "bfe5bf",
+        "default": false
+      },
+      {
+        "id": 34906437,
+        "url": "https://api.github.com/repos/vmg/redcarpet/labels/bug",
+        "name": "bug",
+        "color": "f7c6c7",
+        "default": true
+      }
+    ],
+    "state": "closed",
+    "locked": false,
+    "assignee": null,
+    "assignees": [
+
+    ],
+    "milestone": null,
+    "comments": 2,
+    "created_at": "2017-08-05T15:32:30Z",
+    "updated_at": "2017-08-10T00:18:23Z",
+    "closed_at": "2017-08-09T17:07:30Z",
+    "author_association": "NONE",
+    "body": "First off, thanks for the hard work on Redcarpet!\r\n\r\nI've stumbled upon a weird bit of misbehavior related to Markdown links and SmartyPants that I couldn't find documented in any of the existing issues. I'm using Ruby 2.4.1 and Redcarpet 3.4.0 in a Rails 5.1 app. Details are below, but let me know if I can provide any additional examples or background.\r\n\r\n## Expected Behavior\r\n\r\nI'd expect that a run of Markdown like…\r\n\r\n```md\r\n[Jason](https://sixtwothree.org)'s website\r\n```\r\n\r\n…when parsed with `Redcarpet::Render::SmartyPants.render` would return:\r\n\r\n```md\r\n[Jason](https://sixtwothree.org)&rsquo;s website\r\n```\r\n\r\n## Observed Behavior\r\n\r\nIf the `'` is adjacent to the Markdown link code, an unexpected character entity (`&lsquo;`) is returned:\r\n\r\n```\r\nirb(main):011:0> Redcarpet::Render::SmartyPants.render(\"[Jason](https://sixtwothree.org)'s website\")\r\n=> \"[Jason](https://sixtwothree.org)&lsquo;s website\"\r\n```\r\n\r\nIf the `'` is moved within the anchor text, the expected character entity (`&rsquo;`) is returned:\r\n\r\n```\r\nirb(main):012:0> Redcarpet::Render::SmartyPants.render(\"[Jason's website](https://sixtwothree.org)\")\r\n=> \"[Jason&rsquo;s website](https://sixtwothree.org)\"\r\n```\r\n\r\nFor completion's sake, surrounding the Markdown link code with single `'` characters returns:\r\n\r\n```\r\nirb(main):013:0> Redcarpet::Render::SmartyPants.render(\"'[Jason](https://sixtwothree.org)'s website\")\r\n=> \"&lsquo;[Jason](https://sixtwothree.org)&rsquo;s website\"\r\nirb(main):014:0> \r\n```"
+  },
+  {
+    "url": "https://api.github.com/repos/vmg/redcarpet/issues/622",
+    "repository_url": "https://api.github.com/repos/vmg/redcarpet",
+    "labels_url": "https://api.github.com/repos/vmg/redcarpet/issues/622/labels{/name}",
+    "comments_url": "https://api.github.com/repos/vmg/redcarpet/issues/622/comments",
+    "events_url": "https://api.github.com/repos/vmg/redcarpet/issues/622/events",
+    "html_url": "https://github.com/vmg/redcarpet/issues/622",
+    "id": 243247300,
+    "number": 622,
+    "title": "Question about syntax highlighting with fenced code blocks",
+    "user": {
+      "login": "ajwann",
+      "id": 23248934,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/23248934?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ajwann",
+      "html_url": "https://github.com/ajwann",
+      "followers_url": "https://api.github.com/users/ajwann/followers",
+      "following_url": "https://api.github.com/users/ajwann/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ajwann/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ajwann/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ajwann/subscriptions",
+      "organizations_url": "https://api.github.com/users/ajwann/orgs",
+      "repos_url": "https://api.github.com/users/ajwann/repos",
+      "events_url": "https://api.github.com/users/ajwann/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ajwann/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+
+    ],
+    "state": "closed",
+    "locked": false,
+    "assignee": null,
+    "assignees": [
+
+    ],
+    "milestone": null,
+    "comments": 1,
+    "created_at": "2017-07-16T15:35:32Z",
+    "updated_at": "2017-07-30T17:30:42Z",
+    "closed_at": "2017-07-16T15:42:59Z",
+    "author_association": "NONE",
+    "body": "I'm using redcarpet with the HTML renderer and ```:highlight => true``` is turned on.\r\n\r\nWhen I create a code block like so:\r\n\\```ruby\r\n    class Foo\r\n    end\r\n\\```\r\nI don't see any syntax higlighting. I do however see in my browser that the code block was given ```class=\"ruby\"```.\r\n\r\nShould I be expecting to see syntax highlighting? Or does redcarpet just assign a class equal to whatever language I specified, leaving me to style the class myself?"
+  },
+  {
+    "url": "https://api.github.com/repos/vmg/redcarpet/issues/621",
+    "repository_url": "https://api.github.com/repos/vmg/redcarpet",
+    "labels_url": "https://api.github.com/repos/vmg/redcarpet/issues/621/labels{/name}",
+    "comments_url": "https://api.github.com/repos/vmg/redcarpet/issues/621/comments",
+    "events_url": "https://api.github.com/repos/vmg/redcarpet/issues/621/events",
+    "html_url": "https://github.com/vmg/redcarpet/pull/621",
+    "id": 242133998,
+    "number": 621,
+    "title": "fix type in README.md",
+    "user": {
+      "login": "joevandyk",
+      "id": 1179,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1179?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/joevandyk",
+      "html_url": "https://github.com/joevandyk",
+      "followers_url": "https://api.github.com/users/joevandyk/followers",
+      "following_url": "https://api.github.com/users/joevandyk/following{/other_user}",
+      "gists_url": "https://api.github.com/users/joevandyk/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/joevandyk/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/joevandyk/subscriptions",
+      "organizations_url": "https://api.github.com/users/joevandyk/orgs",
+      "repos_url": "https://api.github.com/users/joevandyk/repos",
+      "events_url": "https://api.github.com/users/joevandyk/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/joevandyk/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+
+    ],
+    "state": "closed",
+    "locked": false,
+    "assignee": null,
+    "assignees": [
+
+    ],
+    "milestone": null,
+    "comments": 1,
+    "created_at": "2017-07-11T18:01:16Z",
+    "updated_at": "2017-07-11T21:04:53Z",
+    "closed_at": "2017-07-11T21:04:39Z",
+    "author_association": "CONTRIBUTOR",
+    "pull_request": {
+      "url": "https://api.github.com/repos/vmg/redcarpet/pulls/621",
+      "html_url": "https://github.com/vmg/redcarpet/pull/621",
+      "diff_url": "https://github.com/vmg/redcarpet/pull/621.diff",
+      "patch_url": "https://github.com/vmg/redcarpet/pull/621.patch"
+    },
+    "body": ""
+  },
+  {
+    "url": "https://api.github.com/repos/vmg/redcarpet/issues/620",
+    "repository_url": "https://api.github.com/repos/vmg/redcarpet",
+    "labels_url": "https://api.github.com/repos/vmg/redcarpet/issues/620/labels{/name}",
+    "comments_url": "https://api.github.com/repos/vmg/redcarpet/issues/620/comments",
+    "events_url": "https://api.github.com/repos/vmg/redcarpet/issues/620/events",
+    "html_url": "https://github.com/vmg/redcarpet/pull/620",
+    "id": 241432786,
+    "number": 620,
+    "title": "Fix hashes in test suite for 32b architectures",
+    "user": {
+      "login": "lnussbaum",
+      "id": 12544,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/12544?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/lnussbaum",
+      "html_url": "https://github.com/lnussbaum",
+      "followers_url": "https://api.github.com/users/lnussbaum/followers",
+      "following_url": "https://api.github.com/users/lnussbaum/following{/other_user}",
+      "gists_url": "https://api.github.com/users/lnussbaum/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/lnussbaum/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/lnussbaum/subscriptions",
+      "organizations_url": "https://api.github.com/users/lnussbaum/orgs",
+      "repos_url": "https://api.github.com/users/lnussbaum/repos",
+      "events_url": "https://api.github.com/users/lnussbaum/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/lnussbaum/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+
+    ],
+    "state": "closed",
+    "locked": false,
+    "assignee": null,
+    "assignees": [
+
+    ],
+    "milestone": null,
+    "comments": 1,
+    "created_at": "2017-07-08T07:22:24Z",
+    "updated_at": "2017-07-11T21:06:16Z",
+    "closed_at": "2017-07-11T21:05:28Z",
+    "author_association": "CONTRIBUTOR",
+    "pull_request": {
+      "url": "https://api.github.com/repos/vmg/redcarpet/pulls/620",
+      "html_url": "https://github.com/vmg/redcarpet/pull/620",
+      "diff_url": "https://github.com/vmg/redcarpet/pull/620.diff",
+      "patch_url": "https://github.com/vmg/redcarpet/pull/620.patch"
+    },
+    "body": "The hash length depends on integer size (32b/64b). Allow the test suite\r\nto work on 32b architectures too."
+  },
+  {
+    "url": "https://api.github.com/repos/vmg/redcarpet/issues/619",
+    "repository_url": "https://api.github.com/repos/vmg/redcarpet",
+    "labels_url": "https://api.github.com/repos/vmg/redcarpet/issues/619/labels{/name}",
+    "comments_url": "https://api.github.com/repos/vmg/redcarpet/issues/619/comments",
+    "events_url": "https://api.github.com/repos/vmg/redcarpet/issues/619/events",
+    "html_url": "https://github.com/vmg/redcarpet/issues/619",
+    "id": 237455160,
+    "number": 619,
+    "title": "Install failed on Ubuntu 16.04 with Ruby 2.4.1",
+    "user": {
+      "login": "IngoAlbers",
+      "id": 7128145,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/7128145?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/IngoAlbers",
+      "html_url": "https://github.com/IngoAlbers",
+      "followers_url": "https://api.github.com/users/IngoAlbers/followers",
+      "following_url": "https://api.github.com/users/IngoAlbers/following{/other_user}",
+      "gists_url": "https://api.github.com/users/IngoAlbers/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/IngoAlbers/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/IngoAlbers/subscriptions",
+      "organizations_url": "https://api.github.com/users/IngoAlbers/orgs",
+      "repos_url": "https://api.github.com/users/IngoAlbers/repos",
+      "events_url": "https://api.github.com/users/IngoAlbers/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/IngoAlbers/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+
+    ],
+    "state": "closed",
+    "locked": false,
+    "assignee": null,
+    "assignees": [
+
+    ],
+    "milestone": null,
+    "comments": 6,
+    "created_at": "2017-06-21T08:33:45Z",
+    "updated_at": "2017-06-24T18:20:49Z",
+    "closed_at": "2017-06-24T14:10:49Z",
+    "author_association": "NONE",
+    "body": "I'm trying to install the gem with Ubuntu 16.04 using ruby 2.4.1 installed by rbenv.\r\n\r\n```\r\ningo@ingo-XPS-13-9360:~$ gem install redcarpet --verbose\r\nHEAD https://api.rubygems.org/api/v1/dependencies\r\n200 OK\r\nGET https://api.rubygems.org/api/v1/dependencies?gems=redcarpet\r\n200 OK\r\nGetting SRV record failed: DNS result has no information for _rubygems._tcp.api.rubygems.org\r\n/home/ingo/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/redcarpet-3.4.0/COPYING\r\n/home/ingo/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/redcarpet-3.4.0/Gemfile\r\n/home/ingo/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/redcarpet-3.4.0/README.markdown\r\n/home/ingo/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/redcarpet-3.4.0/Rakefile\r\n/home/ingo/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/redcarpet-3.4.0/bin/redcarpet\r\n/home/ingo/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/redcarpet-3.4.0/ext/redcarpet/autolink.c\r\n/home/ingo/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/redcarpet-3.4.0/ext/redcarpet/autolink.h\r\n/home/ingo/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/redcarpet-3.4.0/ext/redcarpet/buffer.c\r\n/home/ingo/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/redcarpet-3.4.0/ext/redcarpet/buffer.h\r\n/home/ingo/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/redcarpet-3.4.0/ext/redcarpet/extconf.rb\r\n/home/ingo/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/redcarpet-3.4.0/ext/redcarpet/houdini.h\r\n/home/ingo/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/redcarpet-3.4.0/ext/redcarpet/houdini_href_e.c\r\n/home/ingo/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/redcarpet-3.4.0/ext/redcarpet/houdini_html_e.c\r\n/home/ingo/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/redcarpet-3.4.0/ext/redcarpet/html.c\r\n/home/ingo/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/redcarpet-3.4.0/ext/redcarpet/html.h\r\n/home/ingo/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/redcarpet-3.4.0/ext/redcarpet/html_blocks.h\r\n/home/ingo/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/redcarpet-3.4.0/ext/redcarpet/html_smartypants.c\r\n/home/ingo/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/redcarpet-3.4.0/ext/redcarpet/markdown.c\r\n/home/ingo/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/redcarpet-3.4.0/ext/redcarpet/markdown.h\r\n/home/ingo/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/redcarpet-3.4.0/ext/redcarpet/rc_markdown.c\r\n/home/ingo/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/redcarpet-3.4.0/ext/redcarpet/rc_render.c\r\n/home/ingo/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/redcarpet-3.4.0/ext/redcarpet/redcarpet.h\r\n/home/ingo/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/redcarpet-3.4.0/ext/redcarpet/stack.c\r\n/home/ingo/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/redcarpet-3.4.0/ext/redcarpet/stack.h\r\n/home/ingo/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/redcarpet-3.4.0/lib/redcarpet.rb\r\n/home/ingo/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/redcarpet-3.4.0/lib/redcarpet/cli.rb\r\n/home/ingo/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/redcarpet-3.4.0/lib/redcarpet/compat.rb\r\n/home/ingo/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/redcarpet-3.4.0/lib/redcarpet/render_man.rb\r\n/home/ingo/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/redcarpet-3.4.0/lib/redcarpet/render_strip.rb\r\n/home/ingo/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/redcarpet-3.4.0/redcarpet.gemspec\r\n/home/ingo/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/redcarpet-3.4.0/test/benchmark.rb\r\n/home/ingo/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/redcarpet-3.4.0/test/custom_render_test.rb\r\n/home/ingo/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/redcarpet-3.4.0/test/fixtures/benchmark.md\r\n/home/ingo/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/redcarpet-3.4.0/test/html5_test.rb\r\n/home/ingo/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/redcarpet-3.4.0/test/html_render_test.rb\r\n/home/ingo/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/redcarpet-3.4.0/test/html_toc_render_test.rb\r\n/home/ingo/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/redcarpet-3.4.0/test/markdown_test.rb\r\n/home/ingo/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/redcarpet-3.4.0/test/pathological_inputs_test.rb\r\n/home/ingo/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/redcarpet-3.4.0/test/redcarpet_bin_test.rb\r\n/home/ingo/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/redcarpet-3.4.0/test/redcarpet_compat_test.rb\r\n/home/ingo/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/redcarpet-3.4.0/test/safe_render_test.rb\r\n/home/ingo/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/redcarpet-3.4.0/test/smarty_html_test.rb\r\n/home/ingo/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/redcarpet-3.4.0/test/smarty_pants_test.rb\r\n/home/ingo/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/redcarpet-3.4.0/test/stripdown_render_test.rb\r\n/home/ingo/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/redcarpet-3.4.0/test/test_helper.rb\r\nBuilding native extensions.  This could take a while...\r\ncurrent directory: /home/ingo/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/redcarpet-3.4.0/ext/redcarpet\r\n/home/ingo/.rbenv/versions/2.4.1/bin/ruby -r ./siteconf20170621-26093-nh63dp.rb extconf.rb\r\ncreating Makefile\r\ncurrent directory: /home/ingo/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/redcarpet-3.4.0/ext/redcarpet\r\nmake \"DESTDIR=\" clean\r\ncurrent directory: /home/ingo/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/redcarpet-3.4.0/ext/redcarpet\r\nmake \"DESTDIR=\"\r\ncompiling autolink.c\r\ncompiling buffer.c\r\nbuffer.c: In function ‘bufcstr’:\r\nbuffer.c:111:45: warning: passing argument 1 of ‘bufgrow’ discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]\r\n  if (buf->size + 1 <= buf->asize || bufgrow(buf, buf->size + 1) == BUF_OK) {\r\n                                             ^\r\nbuffer.c:60:1: note: expected ‘struct buf *’ but argument is of type ‘const struct buf *’\r\n bufgrow(struct buf *buf, size_t neosz)\r\n ^\r\nbuffer.c: At top level:\r\ncc1: warning: unrecognized command line option ‘-Wno-self-assign’\r\ncc1: warning: unrecognized command line option ‘-Wno-constant-logical-operand’\r\ncc1: warning: unrecognized command line option ‘-Wno-parentheses-equality’\r\ncc1: warning: unrecognized command line option ‘-Wno-tautological-compare’\r\ncompiling houdini_href_e.c\r\ncompiling houdini_html_e.c\r\ncompiling html.c\r\ncompiling html_smartypants.c\r\nhtml_smartypants.c: In function ‘squote_len’:\r\nhtml_smartypants.c:104:39: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]\r\n  static char* single_quote_list[] = { \"'\", \"&#39;\", \"&#x27;\", \"&apos;\", NULL };\r\n                                       ^\r\nhtml_smartypants.c:104:44: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]\r\n  static char* single_quote_list[] = { \"'\", \"&#39;\", \"&#x27;\", \"&apos;\", NULL };\r\n                                            ^\r\nhtml_smartypants.c:104:53: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]\r\n  static char* single_quote_list[] = { \"'\", \"&#39;\", \"&#x27;\", \"&apos;\", NULL };\r\n                                                     ^\r\nhtml_smartypants.c:104:63: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]\r\n  static char* single_quote_list[] = { \"'\", \"&#39;\", \"&#x27;\", \"&apos;\", NULL };\r\n                                                               ^\r\nhtml_smartypants.c: In function ‘smartypants_squote’:\r\nhtml_smartypants.c:149:30: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]\r\n    uint8_t next_char = (size > 1+next_squote_len) ? text[1+next_squote_len] : 0;\r\n                              ^\r\nhtml_smartypants.c: In function ‘smartypants_cb__amp’:\r\nhtml_smartypants.c:250:2: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]\r\n  int len = squote_len(text, size);\r\n  ^\r\nhtml_smartypants.c: At top level:\r\ncc1: warning: unrecognized command line option ‘-Wno-self-assign’\r\ncc1: warning: unrecognized command line option ‘-Wno-constant-logical-operand’\r\ncc1: warning: unrecognized command line option ‘-Wno-parentheses-equality’\r\ncc1: warning: unrecognized command line option ‘-Wno-tautological-compare’\r\ncompiling markdown.c\r\nmarkdown.c: In function ‘char_link’:\r\nmarkdown.c:1045:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]\r\n   struct buf id = { 0, 0, 0, 0 };\r\n   ^\r\nmarkdown.c:1085:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]\r\n   size_t nb_p = 0;\r\n   ^\r\nmarkdown.c: In function ‘sd_markdown_render’:\r\nmarkdown.c:2818:2: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]\r\n  int footnotes_enabled  = md->ext_flags & MKDEXT_FOOTNOTES;\r\n  ^\r\nmarkdown.c:2836:43: warning: passing argument 1 of ‘is_codefence’ discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]\r\n   if (codefences_enabled && (is_codefence(document + beg, doc_size - beg, NULL) != 0))\r\n                                           ^\r\nmarkdown.c:1389:1: note: expected ‘uint8_t * {aka unsigned char *}’ but argument is of type ‘const uint8_t * {aka const unsigned char *}’\r\n is_codefence(uint8_t *data, size_t size, struct buf *syntax)\r\n ^\r\nmarkdown.c: At top level:\r\nmarkdown.c:94:15: warning: ‘char_underline’ declared ‘static’ but never defined [-Wunused-function]\r\n static size_t char_underline(struct buf *ob, struct sd_markdown *rndr, uint8_t *data, size_t offset, size_t size);\r\n               ^\r\ncc1: warning: unrecognized command line option ‘-Wno-self-assign’\r\ncc1: warning: unrecognized command line option ‘-Wno-constant-logical-operand’\r\ncc1: warning: unrecognized command line option ‘-Wno-parentheses-equality’\r\ncc1: warning: unrecognized command line option ‘-Wno-tautological-compare’\r\ncompiling rc_markdown.c\r\nrc_markdown.c: In function ‘rb_redcarpet_md_render’:\r\nrc_markdown.c:138:2: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]\r\n  struct rb_redcarpet_rndr *renderer;\r\n  ^\r\nrc_markdown.c: At top level:\r\ncc1: warning: unrecognized command line option ‘-Wno-self-assign’\r\ncc1: warning: unrecognized command line option ‘-Wno-constant-logical-operand’\r\ncc1: warning: unrecognized command line option ‘-Wno-parentheses-equality’\r\ncc1: warning: unrecognized command line option ‘-Wno-tautological-compare’\r\ncompiling rc_render.c\r\nrc_render.c: In function ‘rndr_link_attributes’:\r\nrc_render.c:287:28: warning: variable ‘rndr’ set but not used [-Wunused-but-set-variable]\r\n  struct rb_redcarpet_rndr *rndr;\r\n                            ^\r\nrc_render.c: At top level:\r\ncc1: warning: unrecognized command line option ‘-Wno-self-assign’\r\ncc1: warning: unrecognized command line option ‘-Wno-constant-logical-operand’\r\ncc1: warning: unrecognized command line option ‘-Wno-parentheses-equality’\r\ncc1: warning: unrecognized command line option ‘-Wno-tautological-compare’\r\ncompiling stack.c\r\nlinking shared-object redcarpet.so\r\nredcarpet.so: final close failed: Invalid operation\r\ncollect2: error: ld returned 1 exit status\r\nMakefile:257: recipe for target 'redcarpet.so' failed\r\nmake: *** [redcarpet.so] Error 1\r\nERROR:  Error installing redcarpet:\r\n\tERROR: Failed to build gem native extension.\r\n\r\n    Building has failed. See above output for more information on the failure.\r\nmake failed, exit code 2\r\n\r\nGem files will remain installed in /home/ingo/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/redcarpet-3.4.0 for inspection.\r\nResults logged to /home/ingo/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/extensions/x86_64-linux/2.4.0-static/redcarpet-3.4.0/gem_make.out\r\n```\r\n\r\nWhen I use ruby 2.3.0 though it works:\r\n\r\n```\r\ningo@ingo-XPS-13-9360:~$ rbenv shell 2.3.0\r\ningo@ingo-XPS-13-9360:~$ gem install redcarpet\r\nBuilding native extensions.  This could take a while...\r\nSuccessfully installed redcarpet-3.4.0\r\nParsing documentation for redcarpet-3.4.0\r\nDone installing documentation for redcarpet after 0 seconds\r\n1 gem installed\r\n```"
+  },
+  {
+    "url": "https://api.github.com/repos/vmg/redcarpet/issues/618",
+    "repository_url": "https://api.github.com/repos/vmg/redcarpet",
+    "labels_url": "https://api.github.com/repos/vmg/redcarpet/issues/618/labels{/name}",
+    "comments_url": "https://api.github.com/repos/vmg/redcarpet/issues/618/comments",
+    "events_url": "https://api.github.com/repos/vmg/redcarpet/issues/618/events",
+    "html_url": "https://github.com/vmg/redcarpet/issues/618",
+    "id": 233754040,
+    "number": 618,
+    "title": "Duplicated ID generated from headers containing non-ASCII",
+    "user": {
+      "login": "ryym",
+      "id": 12684251,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/12684251?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ryym",
+      "html_url": "https://github.com/ryym",
+      "followers_url": "https://api.github.com/users/ryym/followers",
+      "following_url": "https://api.github.com/users/ryym/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ryym/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ryym/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ryym/subscriptions",
+      "organizations_url": "https://api.github.com/users/ryym/orgs",
+      "repos_url": "https://api.github.com/users/ryym/repos",
+      "events_url": "https://api.github.com/users/ryym/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ryym/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+
+    ],
+    "state": "closed",
+    "locked": false,
+    "assignee": null,
+    "assignees": [
+
+    ],
+    "milestone": null,
+    "comments": 2,
+    "created_at": "2017-06-06T01:23:53Z",
+    "updated_at": "2017-06-06T14:20:18Z",
+    "closed_at": "2017-06-06T12:50:53Z",
+    "author_association": "NONE",
+    "body": "Hi,\r\n\r\nCurrently, redcarpet properly converts a non-ASCII header to a hash string (#538). However, when a header contains ASCII and non-ASCII characters, redcarpet simply strips non-ASCII characters. This behavior can create a same ID from different header strings. For example:\r\n\r\n```rb\r\nrequire 'redcarpet'\r\n\r\nrenderer = Redcarpet::Render::HTML.new(with_toc_data: true)\r\nmarkdown = Redcarpet::Markdown.new(renderer)\r\n\r\ninput = <<~MD\r\n  ## Fooの始め方\r\n  ## Fooのインストール\r\nMD\r\n\r\nputs markdown.render(input)\r\n# =>\r\n# <h2 id=\"foo\">Fooの始め方</h2>\r\n# \r\n# <h2 id=\"foo\">Fooのインストール</h2>\r\n```\r\n\r\nThis is a problem especially when I create a TOC. When I render a TOC from the above `input` text, `HTML_TOC` generates anchors for `Fooの始め方` and `Fooのインストール`, but both anchors have a same `href` which links to `#foo`.\r\n\r\nIs there a way to avoid this ID duplication?\r\n\r\n---\r\n\r\n- ruby: 2.3.1-p112\r\n- redcarpet: 3.4.0"
+  },
+  {
+    "url": "https://api.github.com/repos/vmg/redcarpet/issues/613",
+    "repository_url": "https://api.github.com/repos/vmg/redcarpet",
+    "labels_url": "https://api.github.com/repos/vmg/redcarpet/issues/613/labels{/name}",
+    "comments_url": "https://api.github.com/repos/vmg/redcarpet/issues/613/comments",
+    "events_url": "https://api.github.com/repos/vmg/redcarpet/issues/613/events",
+    "html_url": "https://github.com/vmg/redcarpet/pull/613",
+    "id": 217922436,
+    "number": 613,
+    "title": "Fix markdown rendering of the README",
+    "user": {
+      "login": "joefreeman",
+      "id": 535128,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/535128?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/joefreeman",
+      "html_url": "https://github.com/joefreeman",
+      "followers_url": "https://api.github.com/users/joefreeman/followers",
+      "following_url": "https://api.github.com/users/joefreeman/following{/other_user}",
+      "gists_url": "https://api.github.com/users/joefreeman/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/joefreeman/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/joefreeman/subscriptions",
+      "organizations_url": "https://api.github.com/users/joefreeman/orgs",
+      "repos_url": "https://api.github.com/users/joefreeman/repos",
+      "events_url": "https://api.github.com/users/joefreeman/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/joefreeman/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+
+    ],
+    "state": "closed",
+    "locked": false,
+    "assignee": null,
+    "assignees": [
+
+    ],
+    "milestone": null,
+    "comments": 2,
+    "created_at": "2017-03-29T15:50:37Z",
+    "updated_at": "2017-03-29T21:12:22Z",
+    "closed_at": "2017-03-29T15:51:45Z",
+    "author_association": "NONE",
+    "pull_request": {
+      "url": "https://api.github.com/repos/vmg/redcarpet/pulls/613",
+      "html_url": "https://github.com/vmg/redcarpet/pull/613",
+      "diff_url": "https://github.com/vmg/redcarpet/pull/613.diff",
+      "patch_url": "https://github.com/vmg/redcarpet/pull/613.patch"
+    },
+    "body": ""
+  },
+  {
+    "url": "https://api.github.com/repos/vmg/redcarpet/issues/612",
+    "repository_url": "https://api.github.com/repos/vmg/redcarpet",
+    "labels_url": "https://api.github.com/repos/vmg/redcarpet/issues/612/labels{/name}",
+    "comments_url": "https://api.github.com/repos/vmg/redcarpet/issues/612/comments",
+    "events_url": "https://api.github.com/repos/vmg/redcarpet/issues/612/events",
+    "html_url": "https://github.com/vmg/redcarpet/pull/612",
+    "id": 217632273,
+    "number": 612,
+    "title": "Update README.markdown",
+    "user": {
+      "login": "dkudriavtsev",
+      "id": 9790772,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/9790772?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dkudriavtsev",
+      "html_url": "https://github.com/dkudriavtsev",
+      "followers_url": "https://api.github.com/users/dkudriavtsev/followers",
+      "following_url": "https://api.github.com/users/dkudriavtsev/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dkudriavtsev/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dkudriavtsev/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dkudriavtsev/subscriptions",
+      "organizations_url": "https://api.github.com/users/dkudriavtsev/orgs",
+      "repos_url": "https://api.github.com/users/dkudriavtsev/repos",
+      "events_url": "https://api.github.com/users/dkudriavtsev/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dkudriavtsev/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+
+    ],
+    "state": "closed",
+    "locked": false,
+    "assignee": null,
+    "assignees": [
+
+    ],
+    "milestone": null,
+    "comments": 2,
+    "created_at": "2017-03-28T17:18:34Z",
+    "updated_at": "2017-03-29T21:11:17Z",
+    "closed_at": "2017-03-29T21:11:17Z",
+    "author_association": "NONE",
+    "pull_request": {
+      "url": "https://api.github.com/repos/vmg/redcarpet/pulls/612",
+      "html_url": "https://github.com/vmg/redcarpet/pull/612",
+      "diff_url": "https://github.com/vmg/redcarpet/pull/612.diff",
+      "patch_url": "https://github.com/vmg/redcarpet/pull/612.patch"
+    },
+    "body": ""
+  },
+  {
+    "url": "https://api.github.com/repos/vmg/redcarpet/issues/611",
+    "repository_url": "https://api.github.com/repos/vmg/redcarpet",
+    "labels_url": "https://api.github.com/repos/vmg/redcarpet/issues/611/labels{/name}",
+    "comments_url": "https://api.github.com/repos/vmg/redcarpet/issues/611/comments",
+    "events_url": "https://api.github.com/repos/vmg/redcarpet/issues/611/events",
+    "html_url": "https://github.com/vmg/redcarpet/pull/611",
+    "id": 216417321,
+    "number": 611,
+    "title": "Fix block rendering in readme",
+    "user": {
+      "login": "adamhollett",
+      "id": 6955296,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/6955296?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/adamhollett",
+      "html_url": "https://github.com/adamhollett",
+      "followers_url": "https://api.github.com/users/adamhollett/followers",
+      "following_url": "https://api.github.com/users/adamhollett/following{/other_user}",
+      "gists_url": "https://api.github.com/users/adamhollett/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/adamhollett/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/adamhollett/subscriptions",
+      "organizations_url": "https://api.github.com/users/adamhollett/orgs",
+      "repos_url": "https://api.github.com/users/adamhollett/repos",
+      "events_url": "https://api.github.com/users/adamhollett/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/adamhollett/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+
+    ],
+    "state": "closed",
+    "locked": false,
+    "assignee": null,
+    "assignees": [
+
+    ],
+    "milestone": null,
+    "comments": 1,
+    "created_at": "2017-03-23T12:52:37Z",
+    "updated_at": "2017-05-29T19:18:44Z",
+    "closed_at": "2017-03-29T21:10:06Z",
+    "author_association": "CONTRIBUTOR",
+    "pull_request": {
+      "url": "https://api.github.com/repos/vmg/redcarpet/pulls/611",
+      "html_url": "https://github.com/vmg/redcarpet/pull/611",
+      "diff_url": "https://github.com/vmg/redcarpet/pull/611.diff",
+      "patch_url": "https://github.com/vmg/redcarpet/pull/611.patch"
+    },
+    "body": "The code blocks in the readme were using different numbers of `~` characters and as a result the manpage block extended all the way to the end of the document.\r\n\r\nI made all the code blocks use 4 `~` characters to fix the broken block."
+  }
+]
